@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "api": "node ./backend/api.js --port 3001",
+    "build": "webpack",
+    "client": "webpack-dev-server --port 3000",
+    "start": "nf start"
+  },
+  "dependencies": {
+    "ace-css": "1.1",
+    "css-loader": "^0.28.4",
+    "elm-webpack-loader": "^4.3.1",
+    "file-loader": "^0.11.2",
+    "font-awesome": "4",
+    "foreman": "^2.0.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
