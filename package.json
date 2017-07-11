@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "api": "node ./backend/api.js --port 3001",
+    "api": "node ./backend/api.js",
     "build": "webpack",
     "client": "webpack-dev-server --port 3000",
     "start": "nf start"
